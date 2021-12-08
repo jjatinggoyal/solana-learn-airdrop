@@ -4,8 +4,6 @@ const {
  clusterApiUrl,
  Keypair,
  LAMPORTS_PER_SOL,
- Transaction,
- Account,
 } = require("@solana/web3.js");
 
 const newPair = new Keypair();
@@ -51,4 +49,3 @@ const driverFunction = async () => {
 }
 
 driverFunction()
-// console.log(getWalletBalance())
